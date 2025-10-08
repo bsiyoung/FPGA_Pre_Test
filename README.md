@@ -12,7 +12,7 @@ This simple project is for testing power rails and external oscillator to use th
 
 ## 2. Architecture Diagram
 ### 2.1 Module Diagram
-<img src="./readme_img/001_component_diagram.PNG" width="70%" style="margin-left: auto; margin-right: auto; display: block;"/>
+<img src="./readme_img/001_module_diagram.PNG" width="70%" style="margin-left: auto; margin-right: auto; display: block;"/>
 
 ### 2.2 Block Diagram
 <img src="./readme_img/002_block_diagram.PNG" width="70%" style="margin-left: auto; margin-right: auto; display: block;"/>
