@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ASDMB-25.000MHZ-XY-T
+D 25 MHz XO (Standard) LVCMOS Oscillator 1.8V ~ 3.3V Standby (Power Down) 4-SMD, No Lead
+K
+F https://abracon.com/Oscillators/ASDMB.pdf
+$ENDCMP
+#
+#End Doc Library

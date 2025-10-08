@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'ZMR330FTA'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "ZMR330FTA" (!) = "", "ZMR330FTA", "Other", "522-ZMR330FTA", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/ZMR330FTA?qs=xR5F%252B7zL279AZmsu1D3H1w%3D%3D", "Diodes Inc ZMR330FTA, Single Linear Voltage Regulator, 100mA 3.3 V, 3-Pin SOT-23", "https://www.diodes.com//assets/Datasheets/ZMRSERIES.pdf", "1.2 mm"
+END_PART
+
+END.

@@ -1,0 +1,70 @@
+(Japanese_coding: sjis)
+(function "ECS_441666"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-03-03-22:36:47)
+    (utime 2024-06-25-08:04:59)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+        (port "3" (symbPinId 3) (portType INOUT))
+    )
+    (property "symbolName" "ZMR330FTA")
+)
+
+
+(pinAssign "ECS_441666"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-03-03-22:36:47)
+    (utime 2024-06-25-08:04:59)
+    (interface
+        (port "1" (symbPinId 1) (portName "GND") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "OUT") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "IN") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_441666")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+                (port "3" (match "3"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "ZMR330FTA")
+)
+
+
+(part "ZMR330FTA"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2017-03-03-22:36:47)
+    (utime 2024-06-25-08:04:59)
+    (packageRef "ZMR330FTA")
+    (pinAssignRef "ECS_441666")
+    (interface
+        (port "1" (symbPinId 1) (portName "GND") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "OUT") (portType INOUT))
+        (port "3" (symbPinId 3) (portName "IN") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "IC")
+    (property "description" "Diodes Inc ZMR330FTA, Single Linear Voltage Regulator, 100mA 3.3 V, 3-Pin SOT-23")
+    (property "Mouser_Part_Number" "522-ZMR330FTA")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/ZMR330FTA?qs=xR5F%252B7zL279AZmsu1D3H1w%3D%3D")
+    (property "Manufacturer_Name" "Diodes Incorporated")
+    (property "Manufacturer_Part_Number" "ZMR330FTA")
+    (property "Datasheet_Link" "https://www.diodes.com//assets/Datasheets/ZMRSERIES.pdf")
+    (property "compAreaTopHeight" 1.2)
+)
+
+

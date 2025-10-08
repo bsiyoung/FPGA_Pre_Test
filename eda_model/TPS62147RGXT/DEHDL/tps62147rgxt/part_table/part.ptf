@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'TPS62147RGXT'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "TPS62147RGXT" (!) = "", "TPS62147RGXT", "Other", "595-TPS62147RGXT", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS62147RGXT?qs=55YtniHzbhA45fnTDB2zbg%3D%3D", "3-17V 2.0A Step-Down Converter with 1% accuracy and PFM/Forced-PWM in 2x3QFN", "http://www.ti.com/lit/gpn/TPS62147", "1 mm"
+END_PART
+
+END.

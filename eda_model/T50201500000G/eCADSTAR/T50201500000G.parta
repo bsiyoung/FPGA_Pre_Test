@@ -1,0 +1,66 @@
+(Japanese_coding: sjis)
+(function "ECS_12817860"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-08-25-18:26:00)
+    (utime 2023-06-22-10:55:39)
+    (interface
+        (port "1" (symbPinId 1) (portType INOUT))
+        (port "2" (symbPinId 2) (portType INOUT))
+    )
+    (property "symbolName" "T50201500000G")
+)
+
+
+(pinAssign "ECS_12817860"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-08-25-18:26:00)
+    (utime 2023-06-22-10:55:39)
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (internal
+        (funcInst (functionRef "ECS_12817860")
+                (port "1" (match "1"))
+                (port "2" (match "2"))
+        )
+    )
+    (property "usePowerBox" "No")
+    (property "symbolName" "T50201500000G")
+)
+
+
+(part "T50201500000G"
+    (uver 1)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (ctime 2020-08-25-18:26:00)
+    (utime 2023-06-22-10:55:39)
+    (packageRef "T50201500000G")
+    (pinAssignRef "ECS_12817860")
+    (interface
+        (port "1" (symbPinId 1) (portName "1") (portType INOUT))
+        (port "2" (symbPinId 2) (portName "2") (portType INOUT))
+    )
+    (partClass UNDEF)
+    (useInSchema Y)
+    (useInLayout Y)
+    (inPartsList Y)
+    (partType NORMAL)
+    (placeRestriction FREE)
+    (property "enetNonSeries" "YES")
+    (property "refDesPrefix" "J")
+    (property "description" "Pluggable Terminal Blocks TB WIR PRO 180D SOL")
+    (property "Mouser_Part_Number" "649-T502015000J0G")
+    (property "Mouser_Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/T50201500000G?qs=Mv7BduZupUj7X%2FJbrShOSA%3D%3D")
+    (property "Manufacturer_Name" "Amphenol")
+    (property "Manufacturer_Part_Number" "T50201500000G")
+    (property "Datasheet_Link" "https://www.mouser.co.uk/datasheet/2/18/9t_Oefo5So2A-1379158.pdf")
+    (property "compAreaTopHeight" 8.9)
+)
+
+

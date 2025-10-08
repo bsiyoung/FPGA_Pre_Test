@@ -1,0 +1,11 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "T50201500000G")(type "KiCad")(uri "D:/Workspaces/On Going Projects/FPGA/FPGA_Pre_Test/eda_model/T50201500000G/KiCad")(options "")(descr ""))
+  (lib (name "ZMR330FTA")(type "KiCad")(uri "D:/Workspaces/On Going Projects/FPGA/FPGA_Pre_Test/eda_model/ZMR330FTA/KiCad")(options "")(descr ""))
+  (lib (name "LM3880MFX-1AB_NOPB")(type "KiCad")(uri "D:/Workspaces/On Going Projects/FPGA/FPGA_Pre_Test/eda_model/LM3880MFX-1AB_NOPB/KiCad")(options "")(descr ""))
+  (lib (name "JS202011SCQN")(type "KiCad")(uri "D:/Workspaces/On Going Projects/FPGA/FPGA_Pre_Test/eda_model/JS202011SCQN/KiCad")(options "")(descr ""))
+  (lib (name "TPS62147RGXT")(type "KiCad")(uri "D:/Workspaces/On Going Projects/FPGA/FPGA_Pre_Test/eda_model/TPS62147RGXT/KiCad")(options "")(descr ""))
+  (lib (name "74479325207222")(type "KiCad")(uri "D:/Workspaces/On Going Projects/FPGA/FPGA_Pre_Test/eda_model/74479325207222/KiCad")(options "")(descr ""))
+  (lib (name "219-4MST")(type "KiCad")(uri "D:/Workspaces/On Going Projects/FPGA/FPGA_Pre_Test/eda_model/219-4MST/KiCad")(options "")(descr ""))
+  (lib (name "ASDMB-25.000MHZ-XY-T")(type "KiCad")(uri "D:/Workspaces/On Going Projects/FPGA/FPGA_Pre_Test/eda_model/ASDMB-25.000MHZ-XY-T/KiCad")(options "")(descr ""))
+)

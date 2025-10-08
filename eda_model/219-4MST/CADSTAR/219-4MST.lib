@@ -1,0 +1,16 @@
+.219-4MST :1 ;DIP Switches / SIP Switches
+"2194MST"
+*STM S
+*NGS
+*PLB 1="1" 2="2" 3="3" 4="4" 5="5" 6="6" 7="7" 8="8"
+*MXP 8
+*DFN 219-4MST
+~!Mouser Part Number (774-2194MST)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/CTS-Electronic-Components/219-4MST?qs=qNzHFtQhdJ8xGV2Z9mul9A%3D%3D)
+~!Manufacturer_Name (CTS)
+~!Manufacturer_Part_Number (219-4MST)
+~!Link Datasheet (https://componentsearchengine.com/Datasheets/1/219-4MST.pdf)
+~!Height (4.3mm)
+~!3D_Model (219-4MST)
+"219-4MST"
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 

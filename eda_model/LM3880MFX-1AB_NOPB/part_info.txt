@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=LM3880MFX-1AB/NOPB
+PartCategory=Integrated Circuit
+PackageCategory=SOT23 (6-Pin)
+PinCount=6
+Version=1.1
+Released=2020-09-17 05:22:03
+Downloaded=2025-10-07 13:31:40
+3D=Y

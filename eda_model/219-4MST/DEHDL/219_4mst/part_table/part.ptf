@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART '219_4MST'
+CLASS = DISCRETE
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "CTS", "219-4MST" (!) = "", "2194MST", "Other", "774-2194MST", "https://www.mouser.co.uk/ProductDetail/CTS-Electronic-Components/219-4MST?qs=qNzHFtQhdJ8xGV2Z9mul9A%3D%3D", "DIP Switches / SIP Switches", "https://componentsearchengine.com/Datasheets/1/219-4MST.pdf", "4.3 mm"
+END_PART
+
+END.

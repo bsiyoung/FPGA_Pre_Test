@@ -1,0 +1,16 @@
+.LM3880MFX-1AB_NOPB :1 ;3 Rail Simple Power Sequencer with Fixed Time Delay
+SOT95P280X145-6N
+*STM IC
+*NGS
+*PLB 1="VCC" 2="GND" 3="EN" 4="FLAG3" 5="FLAG2" 6="FLAG1"
+*MXP 6
+*DFN LM3880MFX-1AB_NOPB
+~!Mouser Part Number (926-LM3880MFX1ABNOPB)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM3880MFX-1AB-NOPB?qs=QbsRYf82W3HDF2qNeDWLVw%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (LM3880MFX-1AB/NOPB)
+~!Link Datasheet (http://www.ti.com/lit/gpn/lm3880)
+~!Height (1.45mm)
+~!3D_Model (LM3880MFX-1AB_NOPB)
+LM3880MFX-1AB_NOPB
+1.1!U 2.1!U 3.1!U 6.1!U 5.1!U 4.1!U 

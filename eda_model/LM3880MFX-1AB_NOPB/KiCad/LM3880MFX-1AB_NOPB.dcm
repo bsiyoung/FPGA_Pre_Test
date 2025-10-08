@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LM3880MFX-1AB_NOPB
+D 3 Rail Simple Power Sequencer with Fixed Time Delay
+K
+F http://www.ti.com/lit/gpn/lm3880
+$ENDCMP
+#
+#End Doc Library

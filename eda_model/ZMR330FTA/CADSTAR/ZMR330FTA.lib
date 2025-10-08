@@ -1,0 +1,16 @@
+.ZMR330FTA :1 ;Diodes Inc ZMR330FTA, Single Linear Voltage Regulator, 100mA 3.3 V, 3-Pin SOT-23
+ZMR330FTA
+*STM IC
+*NGS
+*PLB 1="GND" 2="OUT" 3="IN"
+*MXP 3
+*DFN ZMR330FTA
+~!Mouser Part Number (522-ZMR330FTA)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/ZMR330FTA?qs=xR5F%252B7zL279AZmsu1D3H1w%3D%3D)
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (ZMR330FTA)
+~!Link Datasheet (https://www.diodes.com//assets/Datasheets/ZMRSERIES.pdf)
+~!Height (1.2mm)
+~!3D_Model (ZMR330FTA)
+ZMR330FTA
+1.1!U 2.1!U 3.1!U 

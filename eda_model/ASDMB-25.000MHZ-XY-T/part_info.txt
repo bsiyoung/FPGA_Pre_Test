@@ -1,0 +1,9 @@
+Manufacturer=ABRACON
+PartNumber=ASDMB-25.000MHZ-XY-T
+PartCategory=Crystal or Oscillator
+PackageCategory=Other
+PinCount=4
+Version=3.1
+Released=2020-01-08 09:26:11
+Downloaded=2025-08-10 15:10:20
+3D=Y

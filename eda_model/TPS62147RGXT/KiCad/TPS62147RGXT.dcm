@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPS62147RGXT
+D 3-17V 2.0A Step-Down Converter with 1% accuracy and PFM/Forced-PWM in 2x3QFN
+K
+F http://www.ti.com/lit/gpn/TPS62147
+$ENDCMP
+#
+#End Doc Library

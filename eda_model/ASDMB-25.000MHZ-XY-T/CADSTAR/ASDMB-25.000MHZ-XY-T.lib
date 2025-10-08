@@ -1,0 +1,16 @@
+.ASDMB-25.000MHZ-XY-T :1 ;25 MHz XO (Standard) LVCMOS Oscillator 1.8V ~ 3.3V Standby (Power Down) 4-SMD, No Lead
+AbraconASDMB
+*STM Y
+*NGS
+*PLB 1="STANDBY" 2="GND" 3="OUTPUT" 4="VDD"
+*MXP 4
+*DFN ASDMB-25.000MHZ-XY-T
+~!Mouser Part Number (815-ASDMB-25-XY-T)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/ABRACON/ASDMB-25.000MHZ-XY-T?qs=CnD89xF1VSlgeJLQf2MQKg%3D%3D)
+~!Manufacturer_Name (ABRACON)
+~!Manufacturer_Part_Number (ASDMB-25.000MHZ-XY-T)
+~!Link Datasheet (https://abracon.com/Oscillators/ASDMB.pdf)
+~!Height (0.9mm)
+~!3D_Model (ASDMB-25.000MHZ-XY-T)
+ASDMB-25.000MHZ-XY-T
+1.1!U 2.1!U 3.1!U 4.1!U 

@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'LM3880MFX_1AB_NOPB'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Texas Instruments", "LM3880MFX-1AB/NOPB" (!) = "", "SOT95P280X145-6N", "SOT23 (6-Pin)", "926-LM3880MFX1ABNOPB", "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM3880MFX-1AB-NOPB?qs=QbsRYf82W3HDF2qNeDWLVw%3D%3D", "3 Rail Simple Power Sequencer with Fixed Time Delay", "http://www.ti.com/lit/gpn/lm3880", "1.45 mm"
+END_PART
+
+END.

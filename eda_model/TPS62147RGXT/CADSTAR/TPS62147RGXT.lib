@@ -1,0 +1,16 @@
+.TPS62147RGXT :1 ;3-17V 2.0A Step-Down Converter with 1% accuracy and PFM/Forced-PWM in 2x3QFN
+TPS62147RGXT
+*STM IC
+*NGS
+*PLB 1="VIN" 2="SW" 3="GND" 4="AGND" 5="FB" 6="VOS" 7="PG" 8="EN" 9="SS/TR" 10="MODE" 11="FSEL"
+*MXP 11
+*DFN TPS62147RGXT
+~!Mouser Part Number (595-TPS62147RGXT)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Texas-Instruments/TPS62147RGXT?qs=55YtniHzbhA45fnTDB2zbg%3D%3D)
+~!Manufacturer_Name (Texas Instruments)
+~!Manufacturer_Part_Number (TPS62147RGXT)
+~!Link Datasheet (http://www.ti.com/lit/gpn/TPS62147)
+~!Height (1mm)
+~!3D_Model (TPS62147RGXT)
+TPS62147RGXT
+1.1!U 2.1!U 3.1!U 4.1!U 5.1!U 6.1!U 7.1!U 8.1!U 9.1!U 10.1!U 11.1!U 

@@ -1,0 +1,13 @@
+(unit MM)
+
+(package "ASDMB-25_000MHZ-XY-T"
+    (type UNDEF)
+    (uver 2)
+    (cuser "SamacSys")
+    (uuser "SamacSys")
+    (utime 2023-05-02-13:56:26)
+    (mountForm default
+        (footprintRef "AbraconASDMB")
+        (spec "System")
+    )
+)

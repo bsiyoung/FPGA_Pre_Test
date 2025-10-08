@@ -1,0 +1,9 @@
+Manufacturer=Texas Instruments
+PartNumber=TPS62147RGXT
+PartCategory=Integrated Circuit
+PackageCategory=Other
+PinCount=11
+Version=1.4
+Released=2021-01-04 10:49:12
+Downloaded=2025-07-20 14:28:27
+3D=Y

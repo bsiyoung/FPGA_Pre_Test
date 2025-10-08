@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'T50201500000G'
+CLASS = IO
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Amphenol", "T50201500000G" (!) = "", "T50201500000G", "Other", "649-T502015000J0G", "https://www.mouser.co.uk/ProductDetail/Amphenol-Anytek/T50201500000G?qs=Mv7BduZupUj7X%2FJbrShOSA%3D%3D", "Pluggable Terminal Blocks TB WIR PRO 180D SOL", "https://www.mouser.co.uk/datasheet/2/18/9t_Oefo5So2A-1379158.pdf", "8.9 mm"
+END_PART
+
+END.
