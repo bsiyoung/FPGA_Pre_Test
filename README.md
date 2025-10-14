@@ -21,4 +21,4 @@ This simple project is for testing power rails and external oscillator to use th
 <img src="./readme_img/003_block_ports.PNG" width="70%" style="margin-left: auto; margin-right: auto; display: block;"/>
 
 ## 3. Circuit Schematic
-<img src="./readme_img/004_circuit_schematic.jpg" width="90%" style="margin-left: auto; margin-right: auto; display: block;"/>
+<img src="./schematic/schematic.jpg" width="90%" style="margin-left: auto; margin-right: auto; display: block;"/>

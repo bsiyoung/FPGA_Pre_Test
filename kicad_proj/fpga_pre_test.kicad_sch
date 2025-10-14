@@ -6,8 +6,8 @@
 	(paper "A4")
 	(title_block
 		(title "FPGA Pre Test")
-		(date "2025-10-09")
-		(rev "v1.0.0")
+		(date "2025-10-15")
+		(rev "v1.0.1")
 		(comment 1 "Github: https://github.com/bsiyoung/FPGA_Pre_Test")
 		(comment 2 "Author: Park Siyoung")
 	)
@@ -2587,6 +2587,17 @@
 		)
 		(uuid "c09b7ef1-9cc5-4868-87ed-60d9d571947a")
 	)
+	(text "(1.5W Max.)"
+		(exclude_from_sim no)
+		(at 207.264 129.794 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 0 0 255 1)
+			)
+		)
+		(uuid "c10e4658-8dbf-4d66-8c57-19c02ee70235")
+	)
 	(text "(2.2uH)"
 		(exclude_from_sim no)
 		(at 88.9 84.074 0)
@@ -2609,7 +2620,7 @@
 		)
 		(uuid "cf494141-d4c7-447a-9250-5c4a898e4087")
 	)
-	(text "(3.319V)"
+	(text "(3.314V)"
 		(exclude_from_sim no)
 		(at 127 164.338 0)
 		(effects
@@ -2894,7 +2905,7 @@
 		(uuid "e3a3f66f-0738-44a7-be75-4d223437cb16")
 	)
 	(junction
-		(at 181.61 45.72)
+		(at 182.88 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e4e4c2a1-d6ef-4535-85ab-000c4f78aaaf")
@@ -2997,7 +3008,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 48.26) (xy 168.91 48.26)
+			(xy 167.64 50.8) (xy 170.18 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3107,7 +3118,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 54.61) (xy 181.61 55.88)
+			(xy 182.88 57.15) (xy 182.88 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3967,7 +3978,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 50.8) (xy 166.37 50.8)
+			(xy 170.18 53.34) (xy 167.64 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4047,7 +4058,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 55.88) (xy 168.91 50.8)
+			(xy 170.18 58.42) (xy 170.18 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4247,7 +4258,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 45.72) (xy 181.61 46.99)
+			(xy 182.88 48.26) (xy 182.88 49.53)
 		)
 		(stroke
 			(width 0)
@@ -4407,7 +4418,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 45.72) (xy 181.61 45.72)
+			(xy 167.64 48.26) (xy 182.88 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4447,7 +4458,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 44.45) (xy 181.61 45.72)
+			(xy 182.88 46.99) (xy 182.88 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4547,7 +4558,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 35.56) (xy 181.61 35.56)
+			(xy 185.42 38.1) (xy 182.88 38.1)
 		)
 		(stroke
 			(width 0)
@@ -4557,7 +4568,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 35.56) (xy 181.61 36.83)
+			(xy 182.88 38.1) (xy 182.88 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4679,7 +4690,7 @@
 	)
 	(hierarchical_label "SEQ_EN"
 		(shape output)
-		(at 168.91 48.26 0)
+		(at 170.18 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4701,7 +4712,7 @@
 	)
 	(hierarchical_label "3V3LVR"
 		(shape input)
-		(at 184.15 35.56 0)
+		(at 185.42 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5065,7 +5076,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 55.88 0)
+		(at 170.18 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5073,7 +5084,7 @@
 		(dnp no)
 		(uuid "0f3e0dd9-4529-44ef-affb-b2dccf0dfe63")
 		(property "Reference" "#PWR06"
-			(at 168.91 62.23 0)
+			(at 170.18 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5082,7 +5093,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 59.944 0)
+			(at 170.18 62.484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5090,7 +5101,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 55.88 0)
+			(at 170.18 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5099,7 +5110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 55.88 0)
+			(at 170.18 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5108,7 +5119,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 55.88 0)
+			(at 170.18 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6033,7 +6044,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 181.61 50.8 0)
+		(at 182.88 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6041,7 +6052,7 @@
 		(dnp no)
 		(uuid "288e5102-8362-4be4-874d-8ef1f7bfa15a")
 		(property "Reference" "R2"
-			(at 183.134 49.53 0)
+			(at 184.404 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6050,7 +6061,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 183.134 52.07 0)
+			(at 184.404 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6059,7 +6070,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 179.832 50.8 90)
+			(at 181.102 53.34 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6068,7 +6079,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 50.8 0)
+			(at 182.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6077,7 +6088,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 181.61 50.8 0)
+			(at 182.88 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6579,7 +6590,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 106.3752 101.6 0)
 			(effects
 				(font
@@ -6648,7 +6659,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 183.642 134.62 90)
 			(effects
 				(font
@@ -7042,7 +7053,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 186.3852 147.32 0)
 			(effects
 				(font
@@ -7086,7 +7097,7 @@
 	)
 	(symbol
 		(lib_id "JS202011SCQN:JS202011SCQN")
-		(at 146.05 45.72 0)
+		(at 147.32 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7095,7 +7106,7 @@
 		(fields_autoplaced yes)
 		(uuid "521b6279-118f-4a20-bb07-e433101f2184")
 		(property "Reference" "S1"
-			(at 156.21 38.1 0)
+			(at 157.48 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7103,7 +7114,7 @@
 			)
 		)
 		(property "Value" "JS202011SCQN"
-			(at 156.21 40.64 0)
+			(at 157.48 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7111,7 +7122,7 @@
 			)
 		)
 		(property "Footprint" "JS202011SCQN:JS202011SCQN"
-			(at 162.56 140.64 0)
+			(at 163.83 143.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7121,7 +7132,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ckswitches.com/media/1422/js.pdf"
-			(at 162.56 240.64 0)
+			(at 163.83 243.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7131,7 +7142,7 @@
 			)
 		)
 		(property "Description" "Sub miniature slide switches"
-			(at 146.05 45.72 0)
+			(at 147.32 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7140,7 +7151,7 @@
 			)
 		)
 		(property "Height" "5.5"
-			(at 162.56 440.64 0)
+			(at 163.83 443.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7150,7 +7161,7 @@
 			)
 		)
 		(property "Mouser Part Number" "611-JS202011SCQN"
-			(at 162.56 540.64 0)
+			(at 163.83 543.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7160,7 +7171,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/CK/JS202011SCQN?qs=LgMIjt8LuD95JYWxZ7NvZA%3D%3D"
-			(at 162.56 640.64 0)
+			(at 163.83 643.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7170,7 +7181,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "C & K COMPONENTS"
-			(at 162.56 740.64 0)
+			(at 163.83 743.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7180,7 +7191,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "JS202011SCQN"
-			(at 162.56 840.64 0)
+			(at 163.83 843.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7243,7 +7254,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 159.7152 147.32 0)
 			(effects
 				(font
@@ -7775,7 +7786,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 174.752 134.62 90)
 			(effects
 				(font
@@ -7909,7 +7920,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 31.4452 106.68 0)
 			(effects
 				(font
@@ -7978,7 +7989,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 156.972 134.62 90)
 			(effects
 				(font
@@ -8116,7 +8127,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
 			(at 168.6052 147.32 0)
 			(effects
 				(font
@@ -8160,7 +8171,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 181.61 40.64 0)
+		(at 182.88 43.18 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8168,7 +8179,7 @@
 		(dnp no)
 		(uuid "881c4502-c58f-4d6d-80e0-93ab32eb26f0")
 		(property "Reference" "R1"
-			(at 183.134 39.37 0)
+			(at 184.404 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8177,7 +8188,7 @@
 			)
 		)
 		(property "Value" "33k"
-			(at 183.134 41.91 0)
+			(at 184.404 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8186,7 +8197,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 179.832 40.64 90)
+			(at 181.102 43.18 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8195,7 +8206,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 40.64 0)
+			(at 182.88 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8204,7 +8215,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 181.61 40.64 0)
+			(at 182.88 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8245,7 +8256,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "505k"
+		(property "Value" "205k"
 			(at 128.524 135.89 0)
 			(effects
 				(font
@@ -8802,7 +8813,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 55.88 0)
+		(at 182.88 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8810,7 +8821,7 @@
 		(dnp no)
 		(uuid "9ec7132a-aab5-4518-9a3c-12cfe61f8fd7")
 		(property "Reference" "#PWR07"
-			(at 181.61 62.23 0)
+			(at 182.88 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8819,7 +8830,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 59.69 0)
+			(at 182.88 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8827,7 +8838,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 55.88 0)
+			(at 182.88 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8836,7 +8847,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 55.88 0)
+			(at 182.88 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8845,7 +8856,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 55.88 0)
+			(at 182.88 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8959,7 +8970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 31.4452 151.13 0)
 			(effects
 				(font
@@ -9166,7 +9177,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 177.4952 147.32 0)
 			(effects
 				(font
@@ -9235,7 +9246,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 148.082 134.62 90)
 			(effects
 				(font
@@ -9369,7 +9380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
 			(at 165.862 134.62 90)
 			(effects
 				(font
@@ -9693,7 +9704,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "22uF"
 			(at 57.658 53.34 0)
 			(effects
 				(font
@@ -9702,7 +9713,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 58.1152 54.61 0)
 			(effects
 				(font
@@ -9838,7 +9849,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 86.0552 54.61 0)
 			(effects
 				(font
@@ -10676,7 +10687,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "135k"
+		(property "Value" "54.9k"
 			(at 128.524 153.67 0)
 			(effects
 				(font
