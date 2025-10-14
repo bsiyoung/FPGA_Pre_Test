@@ -22,3 +22,10 @@ This simple project is for testing power rails and external oscillator to use th
 
 ## 3. Circuit Schematic
 <img src="./schematic/schematic.jpg" width="90%" style="margin-left: auto; margin-right: auto; display: block;"/>
+
+## 4. PCB Design
+### 4.1 PCB Layout
+<img src="./pcb/pcb.png" width="70%" style="margin-left: auto; margin-right: auto; display: block;"/>
+
+### 4.2 3D Render Image
+<img src="./pcb/pcb_3d_render.png" width="70%" style="margin-left: auto; margin-right: auto; display: block;"/>
