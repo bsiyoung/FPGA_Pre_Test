@@ -23,13 +23,14 @@ This simple project is for testing power rails and external oscillator to use th
 ## 3. Circuit Schematic
 Footprints of resistors R16~20 will be used as solder jumper. Therefore, there is no actual component needed.
 
-<img src="./schematic/schematic.jpg" width="90%" style="margin-left: auto; margin-right: auto; display: block;"/>
+<img src="./schematic/schematic.jpg" width="90%"/>
 
 ## 4. PCB Design
 Manufacturer : JLC PCB </br>
 Gerber File : ./kicad_proj/output
               (./kicad_proj/pcb_output.zip)
-
-<img src="./pcb/pcb.png" width="40%"/>
-&nbsp;&nbsp;
-<img src="./pcb/pcb_3d_render.png" width="40%"/>
+<figure class="half">
+    <img src="./pcb/pcb.png" width="40%"/>
+    &nbsp;&nbsp;
+    <img src="./pcb/pcb_3d_render.png" width="40%"/>
+</figure>
