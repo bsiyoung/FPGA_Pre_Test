@@ -25,12 +25,14 @@ Footprints of resistors R16~20 will be used as solder jumper. Therefore, there i
 
 <img src="./schematic/schematic.jpg" width="90%"/>
 
+Date of basis for price calculation : 2025.10.21. </br>
+Refer to <a href="./component_list.xlsx">component_list.xlsx</a> for details.
+
+<img src="./readme_img/005_price_overview.png" width="40%"/>
+
 ## 4. PCB Design
 Manufacturer : JLC PCB </br>
 Gerber File : ./kicad_proj/output
               (./kicad_proj/pcb_output.zip)
-<figure class="half">
-    <img src="./pcb/pcb.png" width="40%"/>
-    &nbsp;&nbsp;
-    <img src="./pcb/pcb_3d_render.png" width="40%"/>
-</figure>
+
+<img src="./readme_img/006_pcb.png" width="90%"/>
